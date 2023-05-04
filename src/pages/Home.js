@@ -119,7 +119,7 @@ const Home = () => {
                 </div>
             </div>
             <div id="newsletter" className="section">
-                <img src={newsImage} className="bkg-image" alt="newsletter image"/>
+                <img src={newsImage} id="news-image" className="bkg-image" alt="newsletter"/>
                 <div id="newsText">
                     <div id="newsHeader">
                         <div ref={trigger2} />

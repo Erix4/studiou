@@ -6,6 +6,17 @@
   display: block;
 }
 
+#page-wrap{
+  min-height: 100%;
+  /* equal to footer height */
+  margin-bottom: -23vw; 
+}
+
+#page-wrap:after {
+  content: "";
+  display: block;
+}
+
 .scrollContainer{
   position: absolute !important;
 }
@@ -54,7 +65,7 @@
 .routeText{
   font-family: Niveau;
   font-weight: bold;
-  font-size: 2.5em;
+  font-size: 2.5vw;
   color: var(--white);
   text-decoration: none;
   transition: .2s;
@@ -156,7 +167,7 @@
 
 #home-about-header .headerText{
   margin: auto;
-  font-size: 4em;
+  font-size: 5vw;
 }
 
 #home-about-paragraph{
@@ -170,7 +181,7 @@
 
 .paraText{
   font-family: Niveau;
-  font-size: 2em;
+  font-size: 2.5vw;
 }
 
 #youtube{
@@ -193,7 +204,15 @@
 }
 
 #youtube-header .headerText{
-  font-size: 4em;
+  font-size: 5vw;
+}
+
+#newsletter{
+  height: 52vw;
+}
+
+#news-image{
+  height: 52vw;
 }
 
 #newsText{
@@ -211,11 +230,11 @@
 }
 
 #newsHeader h1{
-  font-size: 5em;
+  font-size: 5vw;
 }
 
 #newsHeader p{
-  font-size: 3em;
+  font-size: 3vw;
   margin-top: 1vw;
   text-align: center;
 }
@@ -232,10 +251,10 @@
 }
 
 #email-input{
-  font-size: 2em;
+  font-size: 2vw;
   border: 0;
   border-radius: 5px;
-  padding: 0.5em;
+  padding: 0.8vw;
   width: 30vw;
   font-family: Niveau;
   font-weight: 100;
@@ -247,7 +266,7 @@
   height: 5vw;
   border: 0;
   border-radius: 3vw;
-  font-size: 2.5em;
+  font-size: 2.5vw;
   font-family: Niveau;
   background-color: var(--blue);
   cursor: pointer;
@@ -256,4 +275,54 @@
 
 #email-signup:hover{
   background-color: white;
+}
+
+#footer, #page-wrap:after {
+  height: 23vw; 
+}
+
+#contact{
+  background-color: var(--orange);
+  display: flex;
+}
+
+#contact-pic{
+  height: 19vw;
+  margin: 2vw;
+}
+
+#contact-text{
+  margin: 2vw;
+  margin-top: 4vw;
+  width: 77vw;
+}
+
+.contact-section .headerText{
+  font-size: 3vw;
+  text-align: left;
+  margin-bottom: 1vw;
+}
+
+.socialLink{
+  font-family: Niveau;
+  font-size: 2.5vw;
+}
+
+.socialPic{
+  height: 3vw;
+  margin-right: 1vw;
+  margin-top: 1.5vw;
+}
+
+#contact-text-right{
+  margin-left: auto;
+  margin-right: 2vw;
+}
+
+#contact-text-right .headerText{
+  text-align: right;
+}
+
+.meeting{
+  text-align: right;
 }
