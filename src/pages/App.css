@@ -1,0 +1,259 @@
+/* This file controls the styling for the layout and pages */
+
+@import "../index.css"; /* Import variables and classes from top level css*/
+
+#fullPage{
+  display: block;
+}
+
+.scrollContainer{
+  position: absolute !important;
+}
+
+.Header{
+  background-color: var(--blue);
+  width: 100%;
+  height: 6vw;
+  display: flex;
+}
+
+#image-wrapper{
+  height: 100%;
+  width: fit-content;
+}
+
+.routeLink{
+  height: 100%;
+  text-decoration: none;
+}
+
+.App-logo{
+  height: 100%;
+  object-fit: cover;
+}
+
+.Align{
+  height: 100%;
+  width: fit-content;
+  cursor: pointer;
+  display: flex;
+}
+
+.rightAlign{
+  display: flex;
+  margin-left: auto;
+}
+
+.routeButton{
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: 3vw;
+  margin-left: auto;
+}
+
+.routeText{
+  font-family: Niveau;
+  font-weight: bold;
+  font-size: 2.5em;
+  color: var(--white);
+  text-decoration: none;
+  transition: .2s;
+}
+
+.Align:hover .routeText{
+  color: var(--orange);
+}
+
+.section{
+  width: 100%;
+}
+
+.pageLink{
+  text-decoration: none;
+}
+
+#splash{
+  height: 35vw;
+}
+
+.headerText{
+  font-family: Niveau;
+  text-align: center;
+  z-index: 1;
+}
+
+#splash-text-wrapper{
+  position: absolute;
+  width: 100%;
+  top: 6vw;
+}
+
+#splashText{
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  padding-top: 7vw;
+}
+
+#splashHeader{
+  font-size: 8vw;
+}
+
+#splashText .pageLink{
+  margin-top: 2vw;
+  width: fit-content;
+  margin: auto;
+}
+
+#splash-learn-more{
+  font-size: 3vw;
+  text-decoration: underline;
+  cursor: pointer;
+  color: var(--darkgray);
+  transition: .2s;
+}
+
+#splash-learn-more:hover{
+  color: white;
+}
+
+.bkg-image{
+  width: 100%;
+  z-index: 0;
+}
+
+#splash-image{
+  width: 100%;
+  z-index: 0;
+  height: 35vw;
+  object-fit: cover;
+}
+
+#home-about{
+  background-color: var(--orange);
+  height: 20vw;
+}
+
+#home-about-text{
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.split-section{
+  height: 100%;
+  display: flex;
+}
+
+#home-about-header{
+  width: 40vw;
+}
+
+.wrapper{
+  display: flex;
+  margin: auto;
+}
+
+#home-about-header .headerText{
+  margin: auto;
+  font-size: 4em;
+}
+
+#home-about-paragraph{
+  width: 60vw;
+}
+
+#home-about-paragraph .wrapper{
+  padding-left: 10vw;
+  padding-right: 10vw;
+}
+
+.paraText{
+  font-family: Niveau;
+  font-size: 2em;
+}
+
+#youtube{
+  height: 30vw;
+  display: flex;
+}
+
+#youtube-frame{
+  padding: 1vw;
+}
+
+#youtube-iframe{
+  height: 27vw;
+  width: 48vw;
+}
+
+#youtube-header{
+  width: 30vw;
+  margin: auto;
+}
+
+#youtube-header .headerText{
+  font-size: 4em;
+}
+
+#newsText{
+  z-index: 1;
+  position: absolute;
+  top: 91vw;
+  width: 100%;
+}
+
+#newsHeader{
+  margin-top: 5vw;
+  width: 70vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#newsHeader h1{
+  font-size: 5em;
+}
+
+#newsHeader p{
+  font-size: 3em;
+  margin-top: 1vw;
+  text-align: center;
+}
+
+#newsSubscriber{
+  width: 100%;
+  margin-top: 4vw;
+}
+
+#newsSubscriber .wrapper{
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
+}
+
+#email-input{
+  font-size: 2em;
+  border: 0;
+  border-radius: 5px;
+  padding: 0.5em;
+  width: 30vw;
+  font-family: Niveau;
+  font-weight: 100;
+}
+
+#email-signup{
+  margin-top: 2vw;
+  width: 15vw;
+  height: 5vw;
+  border: 0;
+  border-radius: 3vw;
+  font-size: 2.5em;
+  font-family: Niveau;
+  background-color: var(--blue);
+  cursor: pointer;
+  transition: .2s;
+}
+
+#email-signup:hover{
+  background-color: white;
+}

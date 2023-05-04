@@ -1,3 +1,30 @@
+@font-face {
+  font-family: Niveau;
+  src: url(assets/HVD\ Fonts\ -\ NiveauGroteskRegular.otf);
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: Niveau;
+  src: url(assets/HVD\ Fonts\ -\ NiveauGroteskBold.otf);
+  font-weight: bold;
+}
+
+:root{
+  --blue: #2bace2;
+  --black: #231f20;
+  --orange: #ea624e;
+  --white: #ffffff;
+  --darkgray: #2c2c2c;
+  --lightgray: #c7c7c7;
+}
+
+*{
+  margin: 0;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
